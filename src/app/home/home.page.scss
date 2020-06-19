@@ -1,0 +1,27 @@
+ion-content {
+    --background: rgb(238, 174, 202) !important;
+    --background: linear-gradient(225deg, rgba(238, 174, 202, 1) 0%, rgba(215, 178, 210, 1) 31%, rgba(194, 169, 219, 1) 53%, rgba(172, 181, 231, 1) 74%, rgba(148, 187, 233, 1) 100%) !important;
+}
+
+ion-card-title {
+    font-size: 1.3rem;
+}
+
+#container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#container p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+#container a {
+    text-decoration: none;
+}

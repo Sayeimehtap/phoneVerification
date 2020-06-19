@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true" class="xcontent">
+    <div id="container">
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>
+                    Ayarlanan Zaman
+                </ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+
+                <p>
+                    Doğrulama kodu gelmesi için lütfen telefon numarasını giriniz.
+                </p>
+
+                <ion-grid>
+                    <ion-row>
+                        <ion-col>
+                            <ion-item>
+                                <ion-label position="fixed">Ülke</ion-label>
+                                <ion-select>
+                                    <ion-select-option value="brown">Türkiye</ion-select-option>
+                                    <ion-select-option value="blonde">Amerika</ion-select-option>
+                                    <ion-select-option value="black">Rusya</ion-select-option>
+                                    <ion-select-option value="red">Katar</ion-select-option>
+                                </ion-select>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col size="3">
+                            <ion-item>
+                                <ion-label position="floating">Kod</ion-label>
+                                <ion-input value="+90"></ion-input>
+                            </ion-item>
+                        </ion-col>
+                        <ion-col>
+                            <ion-item size="9">
+                                <ion-label position="floating">Telefon Numarası</ion-label>
+                                <ion-input type="number" clearInput></ion-input>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+
+            </ion-card-content>
+        </ion-card>
+    </div>
+</ion-content>
