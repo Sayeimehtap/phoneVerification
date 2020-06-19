@@ -1,4 +1,4 @@
-<ion-content [fullscreen]="true" class="xcontent">
+<ion-content [fullscreen]="true">
     <div id="container">
         <ion-card>
             <ion-card-content>
@@ -19,9 +19,9 @@
                     </ion-row>
                     <ion-row>
                         <ion-col>
-                            <ion-item>
+                            <ion-item (click)="openCountries()">
                                 <ion-label position="stacked">Ülke</ion-label>
-                                <ion-input value="Türkiye"></ion-input>
+                                <ion-input readonly value="Türkiye"></ion-input>
                             </ion-item>
                         </ion-col>
                     </ion-row>
@@ -37,6 +37,14 @@
                                 <ion-label position="floating">Telefon Numarası</ion-label>
                                 <ion-input type="number" clearInput></ion-input>
                             </ion-item>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col>
+                            <!-- Fill -->
+                            <ion-button expand="block" fill="outline">
+                                <ion-icon slot="start" name="mail-outline"></ion-icon>
+                                Mesaj Gönder</ion-button>
                         </ion-col>
                     </ion-row>
                 </ion-grid>
