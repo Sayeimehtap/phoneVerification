@@ -1,10 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,400,500,,600,700,700i|Lato:300,300i,400,400i,700,700i");
 ion-content {
+    font-family: "Roboto", sans-serif;
     --background: rgb(238, 174, 202) !important;
-    --background: linear-gradient(225deg, rgba(238, 174, 202, 1) 0%, rgba(215, 178, 210, 1) 31%, rgba(194, 169, 219, 1) 53%, rgba(172, 181, 231, 1) 74%, rgba(148, 187, 233, 1) 100%) !important;
+    --background: linear-gradient( 225deg, rgba(238, 174, 202, 1) 0%, rgba(215, 178, 210, 1) 31%, rgba(194, 169, 219, 1) 53%, rgba(172, 181, 231, 1) 74%, rgba(148, 187, 233, 1) 100%) !important;
 }
 
-ion-card-title {
-    font-size: 1.3rem;
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+}
+
+ion-card {
+    padding: 0.3rem;
+}
+
+ion-input {
+    font-family: "Roboto", sans-serif;
+}
+
+ion-row {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ion-item {
+    --padding-start: 0;
 }
 
 #container {
@@ -13,15 +38,4 @@ ion-card-title {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-}
-
-#container p {
-    font-size: 16px;
-    line-height: 22px;
-    color: #8c8c8c;
-    margin: 0;
-}
-
-#container a {
-    text-decoration: none;
 }
